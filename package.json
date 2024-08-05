@@ -1,0 +1,17 @@
+{
+  "name": "localstack-issues-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "localstack": "docker-compose down && docker-compose up -d",
+    "deploy": "sls deploy"
+  },
+  "dependencies": {
+    "aws-sdk": "2.987.0",
+    "serverless": "3.34.0",
+    "serverless-localstack": "1.2.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
